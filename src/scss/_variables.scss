@@ -1,0 +1,20 @@
+@use "sass:math";
+
+@function toRem($value) {
+  @return math.div($value, $size-base-font) * 1rem;
+}
+
+$main-color: black;
+$txt-color: white;
+$size-base-font: 14px;
+
+
+
+$mobile-width: 600px;
+$tablet-width: 1024px;
+
+$font-family: 'Montserrat', sans-serif;
+
+
+
+
