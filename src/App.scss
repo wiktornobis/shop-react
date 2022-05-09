@@ -1,4 +1,6 @@
-@use './scss' as *;
+@import "scss/breakpoints";
+@import "scss/variables";
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
@@ -17,6 +19,7 @@ html {
   }
   @include mobile {
     font-size: 60%;
+
   }
 }
 
@@ -25,8 +28,18 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: $main-color;
+
+  @include mobile {
+    margin-bottom: 3rem;
+
+  }
+
+}
+a {
+  text-decoration: none;
+  color: unset;
 }
 
-
-
-
+button{
+  border: none;
+}

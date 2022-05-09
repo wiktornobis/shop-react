@@ -6,7 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/newsletter/Newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/newsletter/Newsletter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/newsletter/_newsletter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/newsletter/_newsletter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/slider" />
-      <recent name="$PROJECT_DIR$/src/components/newsletter" />
+      <recent name="$PROJECT_DIR$/src/components/image" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/hero" />
-      <recent name="$PROJECT_DIR$/src/components/header" />
-      <recent name="$PROJECT_DIR$/src/components/footer" />
+      <recent name="$PROJECT_DIR$/src/image" />
+      <recent name="$PROJECT_DIR$/src/components/slider" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,6 +69,13 @@
       <workItem from="1651666553599" duration="4606000" />
       <workItem from="1651732331166" duration="902000" />
       <workItem from="1651734592455" duration="44000" />
+      <workItem from="1651737005655" duration="863000" />
+      <workItem from="1651738127560" duration="298000" />
+      <workItem from="1651738478455" duration="80000" />
+      <workItem from="1651738608804" duration="14963000" />
+      <workItem from="1651818263978" duration="15636000" />
+      <workItem from="1652077177713" duration="5772000" />
+      <workItem from="1652099732990" duration="285000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,11 @@
 import React from 'react';
-import './_header.scss';
+import RightNav from "./RightNav";
+
+
 
 function Header(props) {
     return (
-        <div></div>
+        <RightNav />
     );
 }
 

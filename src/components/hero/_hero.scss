@@ -1,0 +1,57 @@
+@import "src/scss/variables";
+@import "src/scss/breakpoints";
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20rem;
+  margin: 3rem 1rem;
+  @include desktop {
+    margin: 3rem 8rem;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &--first {
+      font-size: 3rem;
+    }
+    &--second{
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+    &--btn {
+      width: 9rem;
+      height: 2rem;
+      border-radius: 0.2rem;
+      background-color: lightblue;
+      color: $txt-color;
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition-duration: 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+
+img {
+  width: 350px;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 16px 0 rgba(0,0,0,0.75);
+}
+
+@include mobile {
+  img{
+    width: 250px;
+  }
+}
+
