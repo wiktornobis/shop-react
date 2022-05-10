@@ -1,0 +1,61 @@
+@import "./src/scss/breakpoints";
+@import "./src/scss/variables";
+
+
+.all-contact {
+  padding-bottom: 12rem;
+}
+
+.main-contact {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+
+}
+.second-contact {
+  margin-bottom: 3rem;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  @include mobile {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+
+  &__left {
+    width: 300px;
+
+    @include mobile {
+      margin-top: 6rem;
+    }
+
+    &--text {
+    display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 3rem;
+    }
+  }
+  &__right {
+    width: 300px;
+    margin-top: 6rem;
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    @include mobile {
+      padding-top: 3.5rem;
+    }
+
+  }
+}
+

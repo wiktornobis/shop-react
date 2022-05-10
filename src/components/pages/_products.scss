@@ -1,0 +1,46 @@
+@import "./src/scss/breakpoints";
+@import "./src/scss/variables";
+
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 4rem;
+
+
+}
+.container__product{
+  margin: 4rem 0;
+
+  &--img{
+    width: 250px;
+    height: 250px;
+    margin-top: 1rem;
+    border-radius: 7px;
+
+    @include mobile {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  &--text {
+    font-size: 1.5rem;
+
+  }
+  &--btn {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+
+    @include mobile {
+      font-size: 0.9rem;
+    }
+  }
+}
+
