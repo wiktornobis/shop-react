@@ -27,7 +27,6 @@ function Footer() {
                     <FontAwesomeIcon className='footer__icon--twitter' icon={faFacebook} />
                 </a>
 
-
             </div>
             <div className="footer__text">© Copyright 2022</div>
         </div>
