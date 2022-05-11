@@ -44,32 +44,14 @@
 
   &__basket{
     position: absolute;
-    right: 3rem;
+    right: 2.5rem;
     font-size: 1.5rem;
-    cursor: pointer;
 
     @include mobile {
-      right: 5rem;
+      right: 2rem;
+      font-size: 2rem;
     }
   }
 }
 
-.bars {
-  position: absolute;
-  right: 1.5rem;
-  font-size: 1.8rem;
-  cursor: pointer;
-
-  @include desktop {
-    display: none;
-  }
-
-  @include tablet {
-    display: none;
-  }
-  @include mobile {
-    display: block;
-  }
-
-}
 

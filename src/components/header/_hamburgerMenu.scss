@@ -1,0 +1,87 @@
+@import "./src/scss/variables";
+@import "./src/scss/breakpoints";
+
+.navbar {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__toggle {
+    &--icon {
+      font-size: 2.5rem;
+      position: absolute;
+      left: 1.8rem;
+      top: 1.5rem;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    left: 1.8rem;
+    top: 1.5rem;
+    font-size: 2rem;
+    background: none;
+
+    &--items {
+      width: 100%;
+    }
+  }
+
+
+
+
+  @include desktop {
+    display: none;
+  }
+
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    display: block;
+  }
+
+}
+.nav-menu {
+  background-color: $txt-color;
+  width: 20rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left:-100%;
+  transition: 850ms;
+  z-index: 10;
+}
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  height: 8rem;
+}
+.nav-text a {
+  color: $main-color;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  &:hover {
+    background-color: gray;
+  }
+}
+
+span {
+  margin-left: 1.2rem;
+}
