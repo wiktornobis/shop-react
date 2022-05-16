@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/_rightNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_rightNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/_hero.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +77,8 @@
       <workItem from="1652378478911" duration="278000" />
       <workItem from="1652459206810" duration="330000" />
       <workItem from="1652686718394" duration="532000" />
+      <workItem from="1652687560823" duration="985000" />
+      <workItem from="1652697703278" duration="2364000" />
     </task>
     <servers />
   </component>
