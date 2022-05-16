@@ -1,0 +1,85 @@
+@import "./src/scss/variables";
+@import "./src/scss/breakpoints";
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding-bottom: 6rem;
+
+  @include mobile {
+    padding-bottom: 10rem;
+  }
+
+
+  &__all {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    font-size: 2rem;
+    padding-right: 6rem;
+
+    @include mobile {
+      font-size: 2.5rem;
+    }
+    @include tablet {
+      font-size: 2.5rem;
+    }
+  }
+  &__content {
+    max-width: 30rem;
+
+    &--input {
+      width: 25rem;
+      height: 2.5rem;
+      font-size: 20px;
+      border-radius: 4px;
+      border: 1px solid black;
+      padding-left: 0.6rem;
+      margin-top: 1rem;
+
+      @include mobile {
+        width: 30rem;
+        height: 3.5rem;
+        padding-left: 1rem;
+      }
+
+      @include tablet {
+        width: 30rem;
+        height: 3.5rem;
+        padding-left: 1rem;
+      }
+
+      &:focus {
+        border-color: lightblue;
+        outline: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+    }
+    &--button {
+      background-color: $main-color;
+      color: $txt-color;
+      cursor: pointer;
+      width: 25rem;
+      height: 2.5rem;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.5rem;
+      font-weight: 700;
+
+      &:hover {
+        color: $main-color;
+        background-color: $txt-color;
+        border: 1px solid black;
+      }
+    }
+  }
+
+}
+
