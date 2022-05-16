@@ -1,46 +1,47 @@
 @import "./src/scss/breakpoints";
 @import "./src/scss/variables";
 
-.all-products {
+.products {
+  max-width: 70rem;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
-  padding-bottom: 4rem;
-
-
+  padding: 5rem 0;
 }
-.container__product{
-  margin: 4rem 0;
 
-  &--img{
-    width: 250px;
-    height: 250px;
-    margin-top: 1rem;
-    border-radius: 7px;
+.hoodie {
+  width: 19rem;
+  height: 100%;
+  max-width: 400px;
+  padding: 2rem 0;
 
-    @include mobile {
-      width: 150px;
-      height: 150px;
-    }
+  &__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
   }
 
-  &--text {
-    font-size: 1.5rem;
-
+  &__name {
+    font-size: 1rem;
   }
-  &--btn {
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    width: 6rem;
+
+  &__price {
+    font-size: 0.9rem;
+  }
+  &__btn {
+    width: 7rem;
     height: 2rem;
-    cursor: pointer;
-
-    @include mobile {
-      font-size: 0.9rem;
-    }
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: $txt-color;
+    background-color: $main-color;
   }
+
 }
+
+
+
 

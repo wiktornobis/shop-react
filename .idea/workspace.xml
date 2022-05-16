@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/_hamburgerMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HamburgerMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/RightNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/RightNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/_burger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/_rightNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_rightNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/image" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/image" />
       <recent name="$PROJECT_DIR$/src/components/hero" />
-      <recent name="$PROJECT_DIR$/src/image" />
-      <recent name="$PROJECT_DIR$/src/components/slider" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +69,12 @@
       <workItem from="1652161322709" duration="11399000" />
       <workItem from="1652180274512" duration="3091000" />
       <workItem from="1652261184607" duration="7998000" />
+      <workItem from="1652345295714" duration="839000" />
+      <workItem from="1652346282479" duration="9000" />
+      <workItem from="1652346366720" duration="1397000" />
+      <workItem from="1652378478911" duration="278000" />
+      <workItem from="1652459206810" duration="330000" />
+      <workItem from="1652686718394" duration="532000" />
     </task>
     <servers />
   </component>
