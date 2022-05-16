@@ -1,6 +1,6 @@
 import React from 'react';
 import './_hero.scss';
-import image1 from '../image/image8.jpg'
+import image1 from '../image/image1.jpg'
 import {useNavigate } from "react-router-dom";
 
 function Hero() {
