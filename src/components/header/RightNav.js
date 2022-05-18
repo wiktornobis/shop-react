@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 
 
-function RightNav(props) {
+function RightNav({cartItems}) {
     return (
             <nav >
                 <ul className='header'>
@@ -21,7 +21,12 @@ function RightNav(props) {
                        <Link to='/contact'>Contact</Link>
                     </li>
                     <li className='header__basket'>
-                        <Link to='/basket'><FontAwesomeIcon  icon={faShoppingBasket}  /></Link>
+                        <Link to='/basket'>
+                            <FontAwesomeIcon  icon={faShoppingBasket}  />
+                            <span className="header__basket--length">
+                                {cartItems.length === 0 ? '' : cartItems.length}
+                            </span>
+                        </Link>
                     </li>
                 </ul>
             </nav>

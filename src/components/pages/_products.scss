@@ -73,6 +73,13 @@
     border-radius: 5px;
     cursor: pointer;
 
+    &:hover {
+      background-color: $txt-color;
+      color: $main-color;
+      border: 1px solid black;
+      transition: 0.2s steps(11);
+    }
+
     @include tablet {
       font-size: 1.5rem;
       margin-top: 2rem;

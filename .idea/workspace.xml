@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data/DataProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data/DataProducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/BasketEmpty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CartEmpty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/_basketEmpty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_cartEmpty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/RightNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/RightNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/_rightNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_rightNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_cart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,8 @@
       <workItem from="1652771468563" duration="8489000" />
       <workItem from="1652787174264" duration="4019000" />
       <workItem from="1652853120090" duration="94000" />
-      <workItem from="1652853220166" duration="605000" />
+      <workItem from="1652853220166" duration="4377000" />
+      <workItem from="1652866677389" duration="8855000" />
     </task>
     <servers />
   </component>

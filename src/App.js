@@ -18,11 +18,11 @@ function App() {
     const [cartItems, setCartItems] = useState([]);
 
     const handleAddProduct = (product) => {
-        const exist = cartItems.find((x) => x.id === product.id);
+        const exist = cartItems.find((item) => item.id === product.id);
         if (exist) {
             setCartItems(
-                cartItems.map((x) =>
-                    x.id === product.id ? { ...exist, qty: exist.qty + 1 } : x
+                cartItems.map((item) =>
+                    item.id === product.id ? { ...exist, qty: exist.qty + 1 } : item
                 )
             );
         } else {
@@ -30,15 +30,38 @@ function App() {
         }
     };
 
+    const handleRemoveProduct = (product) => {
+        const exist = cartItems.find((item) => item.id === product.id);
+        if (exist.qty === 1){
+            setCartItems(cartItems.filter((item) => item.id !== product.id));
+        } else {
+            setCartItems(
+                cartItems.map((item) => item.id === product.id ? {...exist, qty: exist.qty - 1} : item)
+            )
+        }
+    }
+
+    const handleCartClearance = () => {
+        setCartItems([]);
+    }
+
+    const handleRemoveSingleProduct = ((product) => {
+        setCartItems(cartItems.filter((item) => item.id !== product.id));
+    })
+
   return (
       <Router>
-          <RightNav />
+          <RightNav  cartItems={cartItems} />
           <Routes>
               <Route path='/' element={<MainPage />} />
               <Route path='/products' element={<Products products={products} cartItems = {cartItems} handleAddProduct = {handleAddProduct} />} />
               <Route path='/contact' element={<Contact />} />
-              <Route path='/basket'  element={<Cart cartItems={cartItems} handleAddProduct = {handleAddProduct} />}  />
-              <Route path='/address' element={<Form />} />
+              <Route path='/basket' element={<Cart cartItems={cartItems}
+                                                    handleAddProduct = {handleAddProduct}
+                                                    handleRemoveProduct={handleRemoveProduct}
+                                                    handleCartClearance={handleCartClearance}
+                                                    handleRemoveSingleProduct={handleRemoveSingleProduct} />} />
+              <Route path='/basket/address' element={<Form />} />
           </Routes>
           <Footer />
       </Router>
