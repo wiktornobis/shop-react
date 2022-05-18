@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/apiConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/data/DataProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data/DataProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/BasketEmpty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CartEmpty.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_basketEmpty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_cartEmpty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,10 @@
       <workItem from="1652721388850" duration="309000" />
       <workItem from="1652721767728" duration="89000" />
       <workItem from="1652721905752" duration="2645000" />
+      <workItem from="1652771468563" duration="8489000" />
+      <workItem from="1652787174264" duration="4019000" />
+      <workItem from="1652853120090" duration="94000" />
+      <workItem from="1652853220166" duration="605000" />
     </task>
     <servers />
   </component>
