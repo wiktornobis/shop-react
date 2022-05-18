@@ -1,0 +1,38 @@
+@import "./src/scss/breakpoints";
+@import "./src/scss/variables";
+@use "sass:math";
+
+.cart-items {
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+
+  &-image {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+
+    @include mobile {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    width: calc(100% - 25rem);
+
+
+    @include mobile {
+      gap: 2rem
+    }
+  }
+}
+
+

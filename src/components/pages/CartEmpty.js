@@ -1,12 +1,12 @@
 import React from 'react';
-import './_basketEmpty.scss';
+import './_cartEmpty.scss';
 import { useNavigate } from 'react-router-dom';
 
-function BasketEmpty() {
+function CartEmpty() {
     let navigate = useNavigate();
     return (
         <div className='basket'>
-            <h2 className='basket__header'>BASKET</h2>
+            <h2 className='basket__header'>CART</h2>
             <div className="basket__text">
                 <p>Your shopping cart is empty.</p>
                 <p>Add goods to it to start placing your order.</p>
@@ -19,4 +19,4 @@ function BasketEmpty() {
     );
 }
 
-export default BasketEmpty;
+export default CartEmpty;

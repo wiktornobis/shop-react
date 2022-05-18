@@ -1,53 +1,26 @@
-import React, {useEffect, useState} from 'react';
-import { collection, getDocs } from 'firebase/firestore';
-import {db} from "../../api/apiConfig";
+import React from 'react';
+import './_products.scss'
 
-export default function ListClothes() {
-    const [clothes, setClothes] = useState([]);
 
-    useEffect(() => {
-        getClothes()
-    }, [])
-
-    useEffect(() => {
-        console.log(clothes)
-
-    }, [clothes])
-
-    function getClothes() {
-        const clothesCollectionRef = collection(db, 'clothes')
-        getDocs(clothesCollectionRef)
-            .then(response => {
-                const list = response.docs.map(doc => ({
-                    data: doc.data(),
-                    id: doc.id,
-                    price: doc.data().price,
-                    image: doc.data().image,
-
-                }))
-                setClothes(list)
-
-            }).catch(error => console.log(error.message))
-
-    }
-
+const Products = ({ products, handleAddProduct}) => {
     return (
-        <div>
-            <h4>List Products</h4>
-            <div>
-                {clothes.map(list => (
-                    <div key={list.id}>
-                        <h4>{list.image}</h4>
-                        <h2 >{list.data.name}</h2>
-                        <h3>{list.price}</h3>
-
-                    </div>
-
-                ))}
-
-            </div>
-
+        <div className="products">
+            {products.map((products) => (
+                <div className='products__card'>
+                    <img
+                        className='products__img'
+                        src={products.img}
+                        alt={products.name}
+                    />
+                    <h3 className='products__card--text'>{products.name}</h3>
+                    <p className='products__card--price'>{products.price}</p>
+                    <button
+                        className="products__btn"
+                        onClick={() => handleAddProduct(products)}
+                    >Add to cart</button>
+                </div>
+            ))}
         </div>
-    );
+    )
 }
-
+export default Products;
