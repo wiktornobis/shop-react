@@ -7,11 +7,13 @@
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/RightNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/RightNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/_rightNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_rightNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_aboutUs.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,10 @@
       <workItem from="1652787174264" duration="4019000" />
       <workItem from="1652853120090" duration="94000" />
       <workItem from="1652853220166" duration="4377000" />
-      <workItem from="1652866677389" duration="8855000" />
+      <workItem from="1652866677389" duration="8969000" />
+      <workItem from="1652878979174" duration="752000" />
+      <workItem from="1652880022819" duration="305000" />
+      <workItem from="1652940302695" duration="1269000" />
     </task>
     <servers />
   </component>

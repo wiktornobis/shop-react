@@ -1,7 +1,7 @@
 import React from 'react';
-import './_contact.scss';
+import './_aboutUs.scss';
 
-function Contact(props) {
+function AboutUs(props) {
     return (
         <div className='all-contact'>
             <h2 className='main-contact'>CONTACT</h2>
@@ -33,4 +33,4 @@ function Contact(props) {
     );
 }
 
-export default Contact;
+export default AboutUs;

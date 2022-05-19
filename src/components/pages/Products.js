@@ -13,7 +13,7 @@ const Products = ({ products, handleAddProduct}) => {
                         alt={products.name}
                     />
                     <h3 className='products__card--text'>{products.name}</h3>
-                    <p className='products__card--price'>{products.price}</p>
+                    <p className='products__card--price'>${products.price}</p>
                     <button
                         className="products__btn"
                         onClick={() => handleAddProduct(products)}

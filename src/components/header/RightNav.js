@@ -12,13 +12,16 @@ function RightNav({cartItems}) {
                 <ul className='header'>
                     <HamburgerMenu />
                     <li className="header__menu">
-                      <Link to='/'>Main page</Link>
+                      <Link to='/'>Home</Link>
                     </li>
                     <li className="header__menu">
                        <Link to='/products'>Products</Link>
                     </li>
                     <li className="header__menu">
-                       <Link to='/contact'>Contact</Link>
+                       <Link to='/about-us'>About us</Link>
+                    </li>
+                    <li className="header__menu">
+                        <Link to='/contact'>Contact</Link>
                     </li>
                     <li className='header__basket'>
                         <Link to='/basket'>

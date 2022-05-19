@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import RightNav from "./components/header/RightNav";
 import Products from "./components/pages/Products";
-import Contact from "./components/pages/Contact";
+import AboutUs from "./components/pages/AboutUs";
 import Cart from "./components/pages/Cart";
 import Footer from "./components/footer/Footer";
 import MainPage from "./components/pages/MainPage";
@@ -55,7 +55,7 @@ function App() {
           <Routes>
               <Route path='/' element={<MainPage />} />
               <Route path='/products' element={<Products products={products} cartItems = {cartItems} handleAddProduct = {handleAddProduct} />} />
-              <Route path='/contact' element={<Contact />} />
+              <Route path='/about-us' element={<AboutUs />} />
               <Route path='/basket' element={<Cart cartItems={cartItems}
                                                     handleAddProduct = {handleAddProduct}
                                                     handleRemoveProduct={handleRemoveProduct}
