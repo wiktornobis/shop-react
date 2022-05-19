@@ -10,6 +10,7 @@ import MainPage from "./components/pages/MainPage";
 import Form from "./components/form/Form";
 import data from "./components/data/DataProducts";
 import {useState} from "react";
+import Contact from "./components/pages/Contact";
 
 
 
@@ -18,6 +19,7 @@ function App() {
     const [cartItems, setCartItems] = useState([]);
 
     const handleAddProduct = (product) => {
+
         const exist = cartItems.find((item) => item.id === product.id);
         if (exist) {
             setCartItems(
@@ -28,7 +30,8 @@ function App() {
         } else {
             setCartItems([...cartItems, { ...product, qty: 1 }]);
         }
-    };
+    }
+
 
     const handleRemoveProduct = (product) => {
         const exist = cartItems.find((item) => item.id === product.id);
@@ -53,9 +56,10 @@ function App() {
       <Router>
           <RightNav  cartItems={cartItems} />
           <Routes>
-              <Route path='/' element={<MainPage />} />
+              <Route path='/' element={<MainPage />} exact/>
               <Route path='/products' element={<Products products={products} cartItems = {cartItems} handleAddProduct = {handleAddProduct} />} />
               <Route path='/about-us' element={<AboutUs />} />
+              <Route path='/contact' element={<Contact />} />
               <Route path='/basket' element={<Cart cartItems={cartItems}
                                                     handleAddProduct = {handleAddProduct}
                                                     handleRemoveProduct={handleRemoveProduct}

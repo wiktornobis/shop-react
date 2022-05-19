@@ -1,13 +1,14 @@
 import React from "react";
 import './_cart.scss';
 import CartEmpty from "./CartEmpty";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faTrashCan} from "@fortawesome/free-solid-svg-icons";
+import {faTrashCan, faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 
 const Cart = ({cartItems, handleAddProduct, handleRemoveProduct, handleCartClearance, handleRemoveSingleProduct}) =>{
 
     const totalPrice = cartItems.reduce((price, item) => price + item.qty * item.price, 0);
+    let navigate = useNavigate();
 
     return (
         <div>
@@ -25,6 +26,13 @@ const Cart = ({cartItems, handleAddProduct, handleRemoveProduct, handleCartClear
                         >
                             Delete all
                         </button>
+                    )}
+                    {cartItems.length >=1 &&(
+                    <FontAwesomeIcon
+                        className='cart-items-arrow-left'
+                        onClick={() => navigate('/products')}
+                        icon={faArrowLeft}
+                        />
                     )}
                 </div>
                 {cartItems.map((item) => (
