@@ -7,13 +7,12 @@
     <list default="true" id="9cfbec55-a32b-4c68-a8c7-6482731f8344" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/RightNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/RightNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/_rightNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_rightNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_aboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/SidebarData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/SidebarData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_aboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_aboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/_cart.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/scss" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/image" />
-      <recent name="$PROJECT_DIR$/src/components/hero" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +92,8 @@
       <workItem from="1652878979174" duration="752000" />
       <workItem from="1652880022819" duration="305000" />
       <workItem from="1652940302695" duration="1269000" />
+      <workItem from="1652941897212" duration="150000" />
+      <workItem from="1652942099200" duration="11692000" />
     </task>
     <servers />
   </component>
