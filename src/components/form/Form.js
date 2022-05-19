@@ -27,42 +27,49 @@ export default function Form() {
             <div className='form__all'>
                 <form className='form__content' onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("firstName")}
+                           key='firstName'
                            className='form__content--input'
                            type='text'
                            placeholder='First name*'/>
                     <p>{errors.firstName?.message}</p>
 
                     <input {...register("lastName")}
+                           key='lastName'
                            className='form__content--input'
                            type='text'
                            placeholder='Last name*'/>
                     <p>{errors.lastName?.message}</p>
 
                     <input {...register("email")}
+                           key='email'
                            className='form__content--input'
                            type='email'
                            placeholder='E-mail*'/>
                     <p>{errors.email?.message}</p>
 
                     <input {...register("phone")}
+                           key='phone'
                            className='form__content--input'
                            type='tel'
                            placeholder='Phone*'/>
                     <p>{errors.phone?.message}</p>
 
                     <input {...register("streetAddress")}
+                           key='streetAddress'
                            className='form__content--input'
                            type='text'
                            placeholder='Address*'/>
                     <p>{errors.streetAddress?.message}</p>
 
                     <input {...register("city")}
+                           key='city'
                            className='form__content--input'
                            type='text'
                            placeholder='City*'/>
                     <p>{errors.city?.message}</p>
 
                     <input {...register("code")}
+                           key='code'
                            className='form__content--input'
                            type='text'
                            placeholder='Postal / Zip Code*'/>
