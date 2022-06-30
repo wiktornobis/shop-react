@@ -3,7 +3,6 @@ import Hero from "../hero/Hero";
 import Newsletter from "../newsletter/Newsletter";
 import Slider from "../slider/Slider";
 
-
 function MainPage(props) {
     return (
         <>

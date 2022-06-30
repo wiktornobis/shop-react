@@ -1,6 +1,7 @@
 import React from 'react';
-import './_cartEmpty.scss';
 import { useNavigate } from 'react-router-dom';
+
+import './_cartEmpty.scss';
 
 function CartEmpty() {
     let navigate = useNavigate();
@@ -14,7 +15,9 @@ function CartEmpty() {
             <button
                 className="basket__button"
                 onClick={() => navigate('/products')}
-            >START SHOPPING</button>
+            >
+                START SHOPPING
+            </button>
         </div>
     );
 }

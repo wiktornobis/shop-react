@@ -41,11 +41,8 @@ function Slider(props) {
                 <SwiperSlide>
                     <img src={img5} alt='hoodie' />
                 </SwiperSlide>
-
             </Swiper>
         </>
-
-
     );
 }
 

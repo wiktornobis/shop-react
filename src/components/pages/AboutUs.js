@@ -26,7 +26,6 @@ function AboutUs(props) {
                         <p>SWIFT:BREXPLPWXXX</p>
                         <p>Our bank: XXXX</p>
                     </div>
-
                 </div>
             </div>
         </div>
