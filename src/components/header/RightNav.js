@@ -1,10 +1,10 @@
 import React from 'react';
-import './_rightNav.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faShoppingBasket} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 
+import './_rightNav.scss'
 
 function RightNav({cartItems}) {
     return (
@@ -27,7 +27,9 @@ function RightNav({cartItems}) {
                         <Link to='/basket'>
                             <FontAwesomeIcon  icon={faShoppingBasket}  />
                             <span className="header__basket--length">
-                                {cartItems.length === 0 ? '' : cartItems.length}
+                                {cartItems.length === 0 
+                                                    ? '' 
+                                                    : cartItems.length}
                             </span>
                         </Link>
                     </li>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './_products.scss'
 
-
 const Products = ({ products, handleAddProduct}) => {
     return (
         <div className="products">
@@ -17,7 +16,9 @@ const Products = ({ products, handleAddProduct}) => {
                     <button
                         className="products__btn"
                         onClick={() => handleAddProduct(products)}
-                    >Add to cart</button>
+                    >
+                        Add to cart
+                    </button>
                 </div>
             ))}
         </div>

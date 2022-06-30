@@ -7,7 +7,6 @@ import { SidebarData } from "./SidebarData";
 
 function HamburgerMenu(props) {
     const [sidebar, setSidebar] = useState(false);
-
     const showSidebar = () => setSidebar(!sidebar)
 
     return (
@@ -17,8 +16,12 @@ function HamburgerMenu(props) {
                     <FontAwesomeIcon  icon={faBars} onClick={showSidebar} />
                 </Link>
             </div>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className="navbar__menu--items" onClick={showSidebar}>
+            <nav className={sidebar ? 'nav-menu active' 
+                                    : 'nav-menu'}
+            >
+                <ul className="navbar__menu--items"
+                    onClick={showSidebar}
+                >
                     <li className="navbar__toggle">
                         <Link to='#' className='navbar__toggle--icon'>
                             <FontAwesomeIcon icon={faXmark} />
@@ -36,10 +39,6 @@ function HamburgerMenu(props) {
                     })}
                 </ul>
             </nav>
-
-
-
-
         </>
     );
 }

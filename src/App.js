@@ -24,7 +24,9 @@ function App() {
         if (exist) {
             setCartItems(
                 cartItems.map((item) =>
-                    item.id === product.id ? { ...exist, qty: exist.qty + 1 } : item
+                    item.id === product.id 
+                              ? { ...exist, qty: exist.qty + 1 } 
+                              : item
                 )
             );
         } else {
@@ -32,18 +34,19 @@ function App() {
         }
     }
 
-
     const handleRemoveProduct = (product) => {
         const exist = cartItems.find((item) => item.id === product.id);
         if (exist.qty === 1){
             setCartItems(cartItems.filter((item) => item.id !== product.id));
         } else {
             setCartItems(
-                cartItems.map((item) => item.id === product.id ? {...exist, qty: exist.qty - 1} : item)
+                cartItems.map((item) => item.id === product.id 
+                                                  ? {...exist, qty: exist.qty - 1} 
+                                                  : item)
             )
         }
     }
-
+    
     const handleCartClearance = () => {
         setCartItems([]);
     }
